@@ -15,7 +15,9 @@ async def start(c, m):
 
 💡 ** I am Stylish Font Bot**
 
-`I can help you to get stylish fonts. Just send me some text and see magic.`
+
+** Send Me Some Text To Change It's Font**
+
 
 **🥺 Please Join : @Private_Bots 🌺**
 """
