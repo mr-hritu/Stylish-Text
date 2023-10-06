@@ -11,7 +11,7 @@ from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant
 @Client.on_message(filters.text & filters.private & filters.incoming)
 async def fore(c, m):
       try:
-        chat = await c.get_chat_member(CH_ID, m.from_user.id)
+        chat = await c.get_chat_member(-1001785446911, m.from_user.id)
         if chat.status=="kicked":
            await c.send_message(chat_id=m.chat.id, text="You are Banned ☹️\n\n📝 If u think this is an ERROR message in @private_giveawayChats", reply_to_message_id=m.id)
            m.stop_propagation()
