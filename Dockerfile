@@ -1,4 +1,6 @@
 FROM python:3.11
+RUN useradd -u 8877 john
+USER john
 
 WORKDIR /app
 COPY . /app
